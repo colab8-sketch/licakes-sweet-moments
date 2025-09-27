@@ -50,7 +50,7 @@ const Index = () => {
     {
       title: "Doces diversos",
       description: "Perfeitos para festas, eventos ou até para adoçar o dia! Sabores feitos com carinho e ingredientes frescos.",
-      price: "R$ 50,00",
+      price: "R$ 100,00",
       image: strawberryCake,
       whatsappMessage: "Olá! Tenho interesse no cento de doces. Poderia me informar sobre os sabores disponíveis?"
     },
