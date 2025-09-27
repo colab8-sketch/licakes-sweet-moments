@@ -9,8 +9,11 @@ import { MapPin, Phone, Mail, Instagram, Clock, Heart, MessageCircle } from 'luc
 import heroCake from '@/assets/hero-cake.jpg';
 import alinePortrait from '@/assets/aline-portrait.jpg';
 import chocolateCake from '@/assets/chocolate-cake.jpg';
+import chocolateCake2 from '@/assets/chocolate-cake2.jpg';
 import strawberryCake from '@/assets/strawberry-cake.jpg';
+import strawberryCake2 from '@/assets/strawberry-cake2.jpg';
 import customCake from '@/assets/custom-cake.jpg';
+import customCake2 from '@/assets/custom-cake2.jpg';
 
 const Index = () => {
   const handleWhatsAppClick = (message: string) => {
