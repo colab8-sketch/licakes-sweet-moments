@@ -44,21 +44,21 @@ const Index = () => {
       title: "Ovos Trufados",
       description: "Crocantes por fora, cremosos por dentro e com recheios irresistíveis que derretem na boca.",
       price: "R$ 60,00",
-      image: chocolateCake,
+      image: chocolateCake2,
       whatsappMessage: "Olá! Gostaria de encomendar um Ovo trufado. Poderia me dar mais informações sobre tamanhos e disponibilidade?"
     },
     {
       title: "Doces diversos",
       description: "Perfeitos para festas, eventos ou até para adoçar o dia! Sabores feitos com carinho e ingredientes frescos.",
       price: "R$ 100,00",
-      image: strawberryCake,
+      image: strawberryCake2,
       whatsappMessage: "Olá! Tenho interesse no cento de doces. Poderia me informar sobre os sabores disponíveis?"
     },
     {
       title: "Cake Donuts",
       description: "Macia massa de bolo no formato de donut, cobertos com caldas e confeitos deliciosos. Uma opção diferente, divertida e irresistível para qualquer ocasião.",
       price: "Sob orçamento",
-      image: customCake,
+      image: customCake2,
       whatsappMessage: "Olá! Gostaria de encomendar uma caixa de cake donuts. Podemos conversar sobre os detalhes?"
     },
   ];
