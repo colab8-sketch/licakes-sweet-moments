@@ -1,4 +1,4 @@
-import Navigation from '@/components/Navigation';
+áimport Navigation from '@/components/Navigation';
 import ProductCard from '@/components/ProductCard';
 import TestimonialCard from '@/components/TestimonialCard';
 import { Button } from '@/components/ui/button';
@@ -39,6 +39,27 @@ const Index = () => {
       price: "Sob orçamento",
       image: customCake,
       whatsappMessage: "Olá! Gostaria de encomendar um Bolo Personalizado. Podemos conversar sobre o tema e detalhes?"
+    }
+    {
+      title: "Ovos Trufados",
+      description: "Crocantes por fora, cremosos por dentro e com recheios irresistíveis que derretem na boca.",
+      price: "R$ 60,00",
+      image: chocolateCake,
+      whatsappMessage: "Olá! Gostaria de encomendar um Ovo trufado. Poderia me dar mais informações sobre tamanhos e disponibilidade?"
+    },
+    {
+      title: "Doces diversos",
+      description: "Perfeitos para festas, eventos ou até para adoçar o dia! Sabores feitos com carinho e ingredientes frescos.",
+      price: "R$ 50,00",
+      image: strawberryCake,
+      whatsappMessage: "Olá! Tenho interesse no cento de doces. Poderia me informar sobre os sabores disponíveis?"
+    },
+    {
+      title: "Cake Donuts",
+      description: "Macia massa de bolo no formato de donut, cobertos com caldas e confeitos deliciosos. Uma opção diferente, divertida e irresistível para qualquer ocasião.",
+      price: "Sob orçamento",
+      image: customCake,
+      whatsappMessage: "Olá! Gostaria de encomendar uma caixa de cake donuts. Podemos conversar sobre os detalhes?"
     }
   ];
 
@@ -212,7 +233,7 @@ const Index = () => {
               { step: "1", title: "Escolha o bolo", description: "Navegue pelo nosso cardápio e escolha seu sabor favorito" },
               { step: "2", title: "Clique em 'Pedir'", description: "Será redirecionado para nosso WhatsApp automaticamente" },
               { step: "3", title: "Combine detalhes", description: "Conversamos sobre sabor, tamanho e confeitos" },
-              { step: "4", title: "Receba seu bolo", description: "Combine a data e hora para retirar seu boloo" }
+              { step: "4", title: "Está pronto!", description: "Combine a data e hora para retirar seu boloo" }
             ].map((item, index) => (
               <Card key={index} className="card-sweet text-center">
                 <CardContent className="p-6">
