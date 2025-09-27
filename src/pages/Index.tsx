@@ -211,8 +211,8 @@ const Index = () => {
             {[
               { step: "1", title: "Escolha o bolo", description: "Navegue pelo nosso cardápio e escolha seu sabor favorito" },
               { step: "2", title: "Clique em 'Pedir'", description: "Será redirecionado para nosso WhatsApp automaticamente" },
-              { step: "3", title: "Combine detalhes", description: "Conversamos sobre sabor, tamanho e data de entrega" },
-              { step: "4", title: "Receba seu bolo", description: "Aguarde seu bolo delicioso chegar até você" }
+              { step: "3", title: "Combine detalhes", description: "Conversamos sobre sabor, tamanho e confeitos" },
+              { step: "4", title: "Receba seu bolo", description: "Combine a data e hora para retirar seu boloo" }
             ].map((item, index) => (
               <Card key={index} className="card-sweet text-center">
                 <CardContent className="p-6">
