@@ -1,4 +1,4 @@
-áimport Navigation from '@/components/Navigation';
+import Navigation from '@/components/Navigation';
 import ProductCard from '@/components/ProductCard';
 import TestimonialCard from '@/components/TestimonialCard';
 import { Button } from '@/components/ui/button';
