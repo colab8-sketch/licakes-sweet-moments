@@ -30,7 +30,7 @@ const Index = () => {
       whatsappMessage: "Olá! Gostaria de encomendar um Bolo de Chocolate Cremoso. Poderia me dar mais informações sobre tamanhos e disponibilidade?"
     },
     {
-      title: "Bolo de Morango com Chantilly",
+      title: "Bolo de Morango com creme ninho",
       description: "Clássico e irresistível, com morangos frescos e chantilly leve.",
       price: "R$ 50,00",
       image: strawberryCake,
