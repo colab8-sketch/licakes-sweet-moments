@@ -302,8 +302,7 @@ const Index = () => {
                 <p className="text-muted-foreground text-sm mb-4">contato@licakesconfeitaria.com</p>
                 <Button 
                   onClick={() => window.open('mailto:contato@licakesconfeitaria.com', '_blank')}
-                  variant="outline"
-                  className="w-full"
+                  className="btn-whatsapp w-full"
                   size="sm"
                 >
                   Enviar
@@ -318,8 +317,7 @@ const Index = () => {
                 <p className="text-muted-foreground text-sm mb-4">@li.cakees</p>
                 <Button 
                   onClick={() => window.open('https://instagram.com/li.cakees', '_blank')}
-                  variant="outline"
-                  className="w-full"
+                  className="btn-whatsapp w-full"
                   size="sm"
                 >
                   Seguir
